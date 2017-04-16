@@ -1,0 +1,8 @@
+Here , I have used MVC (Model View Controller ) framework for the given task.
+
+
+Flow of the process is--->
+
+
+  Java Sever Pages sends form data to the UserController and it invokes signup, login, methods , present in UserDAO (Data access object)  , and UserDAO interact with the database according to the method called by UserController (Servlet) and returns response to Controller and then Controller redirects user (after validation) to the Welcome.jsp with retrieval of its name and email that the user had provided at the time of registration. 
+
